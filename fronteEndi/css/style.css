@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #445255;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url(../img/DALL·E\ 2024-10-30\ 15.01.12\ -\ A\ dark\ and\ terrifying\ landscape\ in\ a\ 16_4\ ratio\,\ filled\ with\ horrifying\ mosquitoes.\ The\ environment\ is\ extremely\ shadowy\,\ almost\ completely\ dark\,\ with.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#logo{
+    color:#ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    padding-left: 10px;
+}
+
+
+.img-logo{
+    width: 30px;
+    height: 30px;
+}
+
+
+.nav-link{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10px ;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+main{
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    color: #ffffff;
+
+}
+
+.text{
+    color: white; 
+    border-radius: 10px; 
+    padding: 20px; 
+    max-width: 600px; 
+    text-align: center; 
+    height: 400px;
+    max-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.botao {
+    background-color: #475e61;
+    height: 70px;
+    width: 120px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+    font-weight: bold;
+
+}
+
+
+.botao a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.botao:hover { 
+    background-color: #324042; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.03); /* Aumenta o tamanho do botão ao passar o mouse */
+}
+
+
