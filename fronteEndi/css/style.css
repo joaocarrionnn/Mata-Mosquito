@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Dangrek&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -5,18 +8,24 @@
 
 body{
     background-color: #445255;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Dangrek", sans-serif;
     height: 100vh;
 }
+
 
 
 .container{
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-image: url(../img/DALL·E\ 2024-10-30\ 15.01.12\ -\ A\ dark\ and\ terrifying\ landscape\ in\ a\ 16_4\ ratio\,\ filled\ with\ horrifying\ mosquitoes.\ The\ environment\ is\ extremely\ shadowy\,\ almost\ completely\ dark\,\ with.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../img/gif5);
+    width: 100%; /* Ajuste conforme necessário */
+    height: 100vh; /* Usa toda a altura da viewport */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    overflow: hidden; /* Evita que partes do GIF saiam do contêiner */
+    backdrop-filter: blur(100px);
 }
 
 header{
@@ -43,11 +52,31 @@ header{
 
 
 .nav-link{
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
+    
     padding-right: 10px ;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 47px;
+    width: 80px;
+    border-radius: 6px;
+    padding-right: 2px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+    
 }
+
+
+.nav-link:hover{
+    background-color: #ff0000f1;
+    height: 47px;
+    width: 80px;
+    border-radius: 6px;
+    transform: scale(1.03); /* Aumenta o tamanho do botão ao passar o mouse */
+}
+
 
 
 ul{
@@ -64,6 +93,7 @@ main{
     align-items: center;
     gap: 60px;
     color: #ffffff;
+    
 
 }
 
@@ -78,10 +108,11 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .botao {
-    background-color: #475e61;
+    background-color: #b80000;
     height: 70px;
     width: 120px;
     border-radius: 6px;
@@ -102,7 +133,7 @@ main{
 
 
 .botao:hover { 
-    background-color: #324042; /* Cor de fundo ao passar o mouse */
+    background-color: #d40000; /* Cor de fundo ao passar o mouse */
     transform: scale(1.03); /* Aumenta o tamanho do botão ao passar o mouse */
 }
 

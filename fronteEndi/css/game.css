@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/fundo_game.webp) ;
+    width: 100%; /* Ajuste conforme necessário */
+    height: 100vh; /* Usa toda a altura da viewport */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    overflow: hidden; /* Evita que partes do GIF saiam do contêiner */
+    position: relative;
+    overflow: hidden;
+}
+
+.img-gorro{
+    width: 40px;
+    
+}
+
+#hud{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
