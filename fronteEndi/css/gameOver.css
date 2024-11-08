@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oleo+Script:wght@400;700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background-image: url(../img/860.jfif);
+    width: 100%; /* Ajuste conforme necessário */
+    height: 100vh; /* Usa toda a altura da viewport */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    overflow: hidden; /* Evita que partes do GIF saiam do contêiner */
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.gameOver{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    backdrop-filter: blur(5px);
+    padding: 80px;
+    border-radius: 10px;
+    border: #637d83 solid 1px;
+    color: rgb(255, 255, 255);
+}
+
+
+button {
+    height: 100px;
+    width: 576px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c70000; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+button:hover {
+    background-color: #45a049; 
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
+
+
+
+
